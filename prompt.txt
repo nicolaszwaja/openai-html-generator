@@ -1,0 +1,40 @@
+Przekształć poniżej podany tekst artykułu w strukture html zachowując dokłanie taką samą treść. Oto wytyczne:
+
+Semantyczność i Struktura:
+
+Używaj semantycznych tagów HTML, takich jak <header>, <section>, <article>, <footer>, aby struktura była logiczna i dobrze zorganizowana.
+Używaj nagłówków w odpowiedniej hierarchii: zaczynając od <h1> (tytuł główny), a następnie <h2>, <h3>, itd. – zachowując odpowiednią strukturę i porządek.
+Elementy listy przedstawiaj za pomocą tagów <ul> (lista nieuporządkowana) lub <ol> (lista uporządkowana) w zależności od potrzeb.
+Dostępność (WCAG):
+
+Wszelkie obrazy powinny zawierać atrybut alt, który będzie szczegółowo opisywał zawartość obrazu (np. alt="A diagram explaining HTML semantic tags"), aby były dostępne dla osób korzystających z czytników ekranowych.
+Dla obrazów, które pełnią rolę dekoracyjną (nie niosą żadnej informacji merytorycznej), atrybut alt="" powinien być pusty, aby nie rozpraszać czytników ekranowych.
+Dodaj odpowiednie atrybuty dla linków <a>, takie jak title, jeśli jest to możliwe i poprawne w kontekście (np. <a href="example.com" title="Przeczytaj więcej o dostępności w HTML">).
+Zapewnij, że wszystkie formularze (jeśli takie występują) zawierają poprawne etykiety (<label>) powiązane z odpowiednimi polami formularza.
+Struktura grafik i multimediów:
+
+Obrazy umieszczaj w tagach <figure> z odpowiednimi podpisami w tagu <figcaption>.
+Zachowuj odpowiednią semantykę w obrębie multimediów, np. jeśli używasz filmów, powinny one mieć odpowiedni tag <video> z atrybutem controls dla zapewnienia kontroli nad odtwarzaniem (np. pauza, głośność itp.).
+SEO i Wydajność:
+
+Zadbaj o to, by wszystkie linki <a> miały opisowe teksty, które zawierają słowa kluczowe związane z treścią. Unikaj używania takich fraz jak „kliknij tutaj”.
+Używaj semantycznych tagów, które poprawiają SEO, takich jak <article>, <section>, <nav>, <aside>, oraz stosowanie tagu <strong> i <em> dla wyróżniania słów kluczowych, które mają znaczenie w kontekście SEO.
+Dąż do minimalizacji zbędnych tagów – jeśli dany element treści nie wymaga osobnego kontenera, nie wstawiaj zbędnego tagu.
+Responsywność i Wydajność:
+
+Zadbaj, aby obrazki były responsywne, ustawiając ich szerokość na 100% w stosunku do kontenera. Używaj atrybutu width="100%" dla zapewnienia, że grafika skalować się będzie odpowiednio na różnych urządzeniach.
+Zapewnij, by zawartość była odpowiednio responsywna. Możesz to osiągnąć przez stosowanie odpowiednich metatagów (np. meta name="viewport" content="width=device-width, initial-scale=1"), które będą zapewniały prawidłowe wyświetlanie na urządzeniach mobilnych (choć pamiętaj, że nie dodajemy tych metatagów w HTML, ponieważ mają być one tylko w obrębie <head>).
+Optymalizacja semantyczna:
+
+Unikaj używania zbyt wielu elementów div (<div>), gdyż mogą one nie wprowadzać dodatkowej wartości semantycznej. Zamiast tego, korzystaj z bardziej odpowiednich tagów semantycznych (np. <article>, <section>, <header>, <footer>).
+Jeśli w artykule są cytaty lub wyróżnienia, użyj tagów takich jak <blockquote>, <cite>, <q>, aby treść była odpowiednio zdefiniowana.
+Dobre praktyki w kodowaniu:
+
+Kod HTML powinien być dobrze sformatowany, z zachowaniem wcięć i odstępów, aby był łatwy do odczytania i utrzymania. Używaj wcięć w kodzie dla lepszej czytelności.
+Używaj jednolitych cudzysłowów (") w atrybutach HTML, aby zapewnić zgodność i ułatwić późniejsze edytowanie kodu.
+Zgodność z wersją HTML:
+
+Pamiętaj, aby tworzyć kod zgodny z HTML5, używając tagów takich jak <section>, <article>, <nav>, <footer> i innych, które są standardowe w HTML5.
+Unikaj używania przestarzałych tagów HTML, takich jak <font>, <center>, <b>, czy <i> na rzecz semantycznych tagów i CSS.
+
+Oto tekst do przekształcenia:
