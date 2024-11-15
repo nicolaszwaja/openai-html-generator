@@ -53,5 +53,5 @@ Program automatycznie wczyta artykuł z pliku artykul.txt, ale możesz wskazać 
 Po przetworzeniu artykułu przez model OpenAI, wygenerowany plik HTML zostanie zapisany w artykul.html. Wygenerowany plik będzie zawierał:
 
 Strukturalny kod HTML (nagłówki, paragrafy, listy).
-Placeholdery dla obrazów z tagami '<img>' i atrybutami alt, wskazującymi prompt do generowania grafik.
-Podpisy dla obrazów, umieszczone w tagach '<figcaption>'.
+Placeholdery dla obrazów z tagami `<img>` i atrybutami alt, wskazującymi prompt do generowania grafik.
+Podpisy dla obrazów, umieszczone w tagach `<figcaption>`.
