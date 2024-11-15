@@ -1,6 +1,6 @@
 Masz za zadanie przekształcić treść artykułu (przekazaną poniżej) na kod HTML. Zastosuj się do następujących wytycznych:
 
-1. Zastosuj odpowiednie tagi HTML do strukturyzacji treści (np. `<h1>`, `<h2>`, `<p>`, `<ul>`, `<ol>`, `<li>`).
+1. Zastosuj odpowiednie tagi HTML do strukturyzacji treści (np. `<header>`,`<article>`,`<footer>`,`<h1>`, `<h2>`, `<p>`, `<ul>`, `<ol>`, `<li>`).
 2. Dodaj miejsca na obrazy w artykule, oznaczając je tagiem `<img>` z atrybutem `src="image_placeholder.jpg"`. Każdy obrazek powinien mieć atrybut `alt` zawierający dokładny prompt do generowania grafiki, która miałaby nawiązywać do treści poprzedzającego fragmentu artykułu. Niech będzie tych obrazków conajmniej 2-3. 
 3. Każdy obrazek powinien mieć odpowiedni podpis umieszczony poniżej, używając tagu `<figcaption>`.
 4. Wygenerowany kod HTML powinien zawierać tylko zawartość do umieszczenia pomiędzy tagami `<body>` i `</body>`. Nie dołączaj tagów `<html>`, `<head>` ani `<body>`.
